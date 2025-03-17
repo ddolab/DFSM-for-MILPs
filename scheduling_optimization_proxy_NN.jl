@@ -14,7 +14,6 @@ Random.seed!(1)
 
 
 #include("C:/data_file.jl") ## change destination of input file ##
-include("C:/UMN/Research/Summers 2022/Kanpsack Surrogate/main files/Case Study 3/data/file26.jl")
 
 
 I=size(Xijt,2) # number of batches
