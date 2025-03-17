@@ -4,7 +4,7 @@ using JuMP, Gurobi
 using CPUTime
 
 
-include("C:/UMN/Research/ICML/codes and data/MPC/MPC_optimization_proxy(2).jl") # trains a NN based optimization proxy, change destination to the folder with MPC_optimization_proxy(2).jl
+include("C:/MPC_optimization_proxy(2).jl") # trains a NN based optimization proxy, change destination to the folder with MPC_optimization_proxy(2).jl
 
 E1=E1*Eo1[1]
 Peng1=Peng1*Pmax
