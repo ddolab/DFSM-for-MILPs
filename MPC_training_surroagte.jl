@@ -4,7 +4,7 @@ using JuMP, Gurobi
 using CPUTime
 
 
-include("C:/UMN/Research/ICML/codes and data/MPC/MPC_data/data_file4.jl")                                ### change me ###
+include(".jl")                                ### change me ###
 
 I=30 # Horizon length
 J=3*I+1 # number of decision variables
