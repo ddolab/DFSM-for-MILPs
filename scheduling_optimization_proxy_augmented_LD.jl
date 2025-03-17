@@ -13,7 +13,7 @@ default(
 Random.seed!(1)
 
 
-include("C:/UMN/Research/Summers 2022/Kanpsack Surrogate/main files/Case Study 3/data/file26.jl") ## change destination of input file ##
+include(".jl") ## change destination of input file ##
 
 
 I=size(Xijt,2) # number of batches
