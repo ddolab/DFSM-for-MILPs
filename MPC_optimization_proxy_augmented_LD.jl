@@ -12,9 +12,7 @@ default(
 
 Random.seed!(1)
 
-
-#include("C:/UMN/Research/ICML/codes and data/MPC/MPC_data/data_file4.jl") ## change destination of input file ##
-include("C:/UMN/Research/Summers 2022/Kanpsack Surrogate/main files/e2e/T=30/t30data_file27.jl")
+include(" .jl")
 T=size(z1,2)
 Pmax=1
 Emax=100
