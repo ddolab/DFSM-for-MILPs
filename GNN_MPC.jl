@@ -9,7 +9,7 @@ using Base.Iterators: repeated, partition
 using LaTeXStrings
 #import MathProgIncidence
 
-include("C:/UMN/Research/Summers 2022/Kanpsack Surrogate/main files/e2e/T=30/t30data_file26.jl")
+include("data.jl")
 
 T=30
 Emax=100
