@@ -130,7 +130,7 @@ for j=1:size(arrk,1)
     yts=permutedims(yts,[2,1])
 
 
-    embs=8
+    embs=8  # embedding size
 
     Cmodel = Chain(
         Flux.Dense(size(Xtr2,1), embs, relu),
