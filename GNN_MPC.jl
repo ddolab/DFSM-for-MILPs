@@ -163,7 +163,7 @@ for j=1:size(arrk,1)
     Xtrain=vcat(reshape(vFeat,:,size(vFeat,3)),reshape(cFeat,:,size(cFeat,3)))
 
     model1=Chain(
-        Flux.Dense(size(vcat(reshape(vFeat,:,size(vFeat,3)),reshape(cFeat,:,size(cFeat,3))),1),91),
+        Flux.Dense(size(vcat(reshape(vFeat,:,size(vFeat,3)),reshape(cFeat,:,size(cFeat,3))),1),nV),
     )
 
 
