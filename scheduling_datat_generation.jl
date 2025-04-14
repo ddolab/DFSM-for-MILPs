@@ -8,10 +8,10 @@ S=700 # number of data points to be generated
 
 
 ### change these parameters as per problem size ###
-I=20 # number of batches   
+I=13 # number of batches   
 J=4  # number of units
-eta=100 # Horizon length
-T=10 # number of slots
+eta=40 # Horizon length
+T=8 # number of slots
 V=2J*T+J # variables for each batch 
 
 
