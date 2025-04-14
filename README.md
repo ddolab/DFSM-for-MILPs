@@ -10,6 +10,13 @@ For the production scheduling case study, the data file generates and solves 700
 
 For training the surrogate models, adjust the number of training data points (K) and the number of added cuts (V) as needed. 
 
+# NN based optimization proxies
+
+For all three optimization proxies discussed—feedforward neural networks (NNs), augmented Lagrangian dual-based NNs, and graph neural networks (GNNs)—the feasibility restoration file is executed and should include the destination of the optimization proxy file on the "include" line. Within each optimization proxy file, the destination of the corresponding data file must also be specified on the "include" line. This way, when the feasibility restoration file is run, it first trains the selected optimization proxy based on the chosen method and input file, and then prints the decision prediction errors (discrete and continuous) and optimality gaps for different training data points.
+
+The code also plots the training loss over the number of epochs for these training data points.
+
+For all three optimization proxy methods, the model architectures, learning rates, optimizers, and number of epochs can be modified as needed. For the GNN case, the embedding size and the number of message-passing layers can also be modified as needed.
 
 # Citation
 
